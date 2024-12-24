@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spunky Games</title>
+  <style>
+    body {
+      width: 600px;
+      height: 600px;
+      margin: 0;
+      padding: 16px;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .header a {
+      color: #2196F3;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .header a:hover {
+      text-decoration: underline;
+    }
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 16px;
+      padding: 16px;
+    }
+    .game-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .game-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .game-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .game-info {
+      padding: 12px;
+    }
+    .game-title {
+      margin: 0;
+      font-size: 16px;
+      color: #333;
+      text-transform: capitalize;
+    }
+    .game-link {
+      display: inline-block;
+      margin-top: 8px;
+      color: #2196F3;
+      text-decoration: none;
+    }
+    .game-link:hover {
+      text-decoration: underline;
+    }
+    .loading {
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <a href="https://spunky.live/" target="_blank">Visit Spunky.live Official Site</a>
+  </div>
+  <div id="content">
+    <div class="loading">Loading...</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
