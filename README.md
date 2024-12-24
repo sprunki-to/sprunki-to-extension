@@ -1,4 +1,4 @@
 # sprunky-live-extension
-Spunky.live chrome extension
+sprunki.to chrome extension
 
-[Chorome extension](https://chromewebstore.google.com/detail/spunky-games/dbbebmkeajioampodoebeklakhlgjhfh?hl=zh-cn)
+[Chorome extension](https://chromewebstore.google.com/detail/sprunki-games/dbbebmkeajioampodoebeklakhlgjhfh?hl=zh-cn)
